@@ -68,4 +68,17 @@ var fullName= firstName+" "+lastName;
 
 console.log(fullName);
 
+//Casting
+
+var stringVar= "6";
+var result= 7+Number(stringVar);
+
+console.log(result);
+
+var areaCode=786;
+var firstPart=443;
+var secPart=7701;
+var phoneNo= "("+ String(areaCode)+ ")"+ String(firstPart)+ "-"+ String(secPart);
+
+console.log(phoneNo);
 
