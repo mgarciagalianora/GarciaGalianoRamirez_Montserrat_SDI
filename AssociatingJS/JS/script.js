@@ -2,8 +2,11 @@
  * Created by Montse on 8/6/15.
  */
 
-var age=22; // Number variable
+var muppetNames= ["Kermit", "Miss Piggy", "Gonzo", "Rizzo"]; //0,1,2,3
 
-var isStudent=false; // Boolean Variable
+muppetNames[4]="Beto";
+muppetNames[1]="Elmo";
 
-var firstName= "Montse";
+var num=2
+
+console.log(muppetNames[num]);
