@@ -20,7 +20,7 @@ var myNickname= "Montse"; // String variable
 
 var myHorses = ["Wonsay", "Ikke", "Francesca", "Gaona"]; // Array
 
-
+console.log("What do you like being called?", myNickname);
 console.log("Number of horses=", numberOfHorses);
 console.log("Does Montse love horses?", loveHorses);
 console.log("What do you do with your horses?", horseType);
