@@ -16,4 +16,10 @@ console.log(muppetNames[num]);*/
 
 var a=2; //sets up our variables a and defines it with 2
 a=a+3;
-console.log(a)
+console.log(a);
+
+var yearBorn=1992;
+var currentYear= 2015;
+var age=currentYear-yearBorn;
+
+console.log(age);
