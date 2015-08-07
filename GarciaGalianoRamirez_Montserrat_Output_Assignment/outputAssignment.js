@@ -14,7 +14,7 @@ var loveHorses = true; // Boolean variable
 
 var horseType = "Jumping"; // String variable
 
-var yearsRiding= 17 // Number variable
+var yearsRiding= 17; // Number variable
 
 var myNickname= "Montse"; // String variable
 
