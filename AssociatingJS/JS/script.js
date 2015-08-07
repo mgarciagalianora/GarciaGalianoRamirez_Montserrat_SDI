@@ -23,3 +23,13 @@ var currentYear= 2015;
 var age=currentYear-yearBorn;
 
 console.log(age);
+
+//Expressions-Arithmetic Operators
+
+//area of triangle= (w*h)/2
+
+var width=4;
+var height=5;
+var area= (width*height)/2;
+
+console.log(area);
