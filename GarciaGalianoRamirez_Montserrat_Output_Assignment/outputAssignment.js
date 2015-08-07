@@ -22,4 +22,4 @@ var myHorses = ["Wonsay", "Ikke", "Francesca", "Gaona"]; // Array
 console.log("Number of horses=", numberOfHorses);
 console.log("Does Montse love horses?", loveHorses);
 console.log("Years riding=", yearsRiding);
-console.log("What are your horses' names?", myHorses[0,1,2,3]);
+console.log("What are your horses' names?", myHorses);
