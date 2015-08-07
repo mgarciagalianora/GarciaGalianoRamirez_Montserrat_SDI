@@ -2,9 +2,7 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="a868462e-d5a1-4e88-bddb-c728a72e45fd" name="Default" comment="">
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/GarciaGalianoRamirez_Montserrat_Output_Assignment/outputAssignment.html" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/GarciaGalianoRamirez_Montserrat_Output_Assignment/outputAssignment.js" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/GarciaGalianoRamirez_Montserrat_Output_Assignment/outputAssignment.js" afterPath="$PROJECT_DIR$/GarciaGalianoRamirez_Montserrat_Output_Assignment/outputAssignment.js" />
     </list>
     <ignored path="GarciaGalianoRamirez_Montserrat_SDI.iws" />
     <ignored path=".idea/workspace.xml" />
@@ -58,8 +56,8 @@
       <file leaf-file-name="outputAssignment.js" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/GarciaGalianoRamirez_Montserrat_Output_Assignment/outputAssignment.js">
           <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="0.18243243">
-              <caret line="9" column="0" selection-start-line="9" selection-start-column="0" selection-end-line="9" selection-end-column="0" />
+            <state vertical-scroll-proportion="0.22297297">
+              <caret line="11" column="0" selection-start-line="11" selection-start-column="0" selection-end-line="11" selection-end-column="0" />
               <folding>
                 <element signature="n#!!doc" expanded="true" />
               </folding>
@@ -390,8 +388,8 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/GarciaGalianoRamirez_Montserrat_Output_Assignment/outputAssignment.js">
       <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.18243243">
-          <caret line="9" column="0" selection-start-line="9" selection-start-column="0" selection-end-line="9" selection-end-column="0" />
+        <state vertical-scroll-proportion="0.22297297">
+          <caret line="11" column="0" selection-start-line="11" selection-start-column="0" selection-end-line="11" selection-end-column="0" />
           <folding>
             <element signature="n#!!doc" expanded="true" />
           </folding>

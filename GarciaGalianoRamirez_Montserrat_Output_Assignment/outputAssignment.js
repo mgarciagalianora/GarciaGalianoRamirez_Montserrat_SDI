@@ -7,3 +7,5 @@ Creating Variables and Output
  */
 
 var numberOfHorses = 4; // Number variable
+
+var loveHorses = true; // Boolean variable
