@@ -30,7 +30,7 @@ console.log(age);
 
 var width=4;
 var height=5;
-var area= (width*height)/2;
+var area= width*height/2;
 
 console.log(area);
 
@@ -42,3 +42,13 @@ console.log(remainder);
 
 var remainderUneven= 32%5;
 console.log(remainderUneven);
+
+//Expressions-PEMDAS-Order of Operations
+
+var quiz1=87;
+var quiz2=100;
+var quiz3=60;
+var quiz4=80;
+
+var average=(quiz1+quiz2+quiz3+quiz4)/4;
+console.log(average);
