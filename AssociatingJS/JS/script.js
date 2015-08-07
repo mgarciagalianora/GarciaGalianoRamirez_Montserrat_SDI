@@ -82,3 +82,14 @@ var phoneNo= "("+ String(areaCode)+ ")"+ String(firstPart)+ "-"+ String(secPart)
 
 console.log(phoneNo);
 
+//Expression- Assignment Operators (=, +=, -=, *=, /=, ++, --)
+
+var a=3;
+a +=4; // a=a+4
+
+var b=3;
+b--; // b=b-1 b-= 1
+
+console.log(a);
+console.log(b);
+
