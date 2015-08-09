@@ -18,6 +18,7 @@ var result= "Sparky is " + sparkysAge + " human year(s) old, which is " + dogYea
 console.log(dogYears); //This will register how old Sparky is in dog years.
 alert (result); //A pop up showing the relationship between human and dog years.
 
+
 /* Slice of Pie part 1
 A bunch of students are having a party and somebody ordered pizza. Create an expression that calculates how much pizza
 each partygoer will get at the party.
@@ -30,4 +31,16 @@ var totalSlices= pizzasOrdered*slicesPerPizza; //Total amount of slices dependin
 var slicesPerPerson= totalSlices/partygoers; //How much every attendee ate.
 
 console.log(slicesPerPerson); //Register the amount of slices per person.
-alert ("Each person ate " + slicesPerPerson + " slices of pizza at the party"); //Alert to show the slices per person. 
+alert ("Each person ate " + slicesPerPerson + " slices of pizza at the party"); //Alert to show the slices per person.
+
+
+/* Slice of Pie part 2
+At the pizza party Sparky, the host's dog is excited, because he gets the leftover pizza after the slices have been
+divided up evenly among the guests. Assume guests get whole slices, how many whole slices will Sparky feast on?
+*/
+
+var sparkysDinner= totalSlices%partygoers; /*Using the variables from last problem, considering everyone ate whole slices
+we calculate how much Sparky got for dinner. */
+
+console.log(sparkysDinner); //Register how much Sparky ate.
+alert ("Sparky got " + sparkysDinner + " slices of pizza"); //Alert to show how much Sparky ate. 
