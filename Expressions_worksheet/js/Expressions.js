@@ -8,7 +8,7 @@ Expression Worksheet
 /* Dog Years
 Dogs age 7 times faster than humans, so a dog that is 1 year old in human years is 7 years old in "dog years."
 Calculate how old Sparky the pit bull is in dog years based on his actual age.
- */
+*/
 
 
 var sparkysAge= prompt("How old is Sparky?");  //This will allow the user to insert Sparky's age in human years.
@@ -23,7 +23,7 @@ alert (result); //A pop up showing the relationship between human and dog years.
 /* Slice of Pie part 1
 A bunch of students are having a party and somebody ordered pizza. Create an expression that calculates how much pizza
 each partygoer will get at the party.
- */
+*/
 
 var pizzasOrdered= prompt("How many pizzas are you ordering?"); //Variable to know how many pizzas are they ordering.
 var slicesPerPizza= prompt("How many slices does each pizza have?"); //Variable to know how many slices each pizza has.
@@ -64,4 +64,24 @@ var averageMoney= totalMoney/5; //Dividing the total money spent by the amount o
 alert("You have spent a total of $" + totalMoney + " on groceries over 5 weeks. That is an average of $" + averageMoney +
 " per week"); //Letting the user know how much money he/she spent and what's the average.
 console.log(totalMoney); //Logging of all the money spent.
-console.log(averageMoney); //Logging of the average spent each week. 
+console.log(averageMoney); //Logging of the average spent each week.
+
+
+/*Discounts
+Calculate the discounted price for an item. Create an expression that will calculate the discounted price with
+and without sales tax.
+ */
+
+var item= prompt("What are you buying?");
+var originalPrice= prompt("What was the original price of the item?");
+var discount= prompt ("What's the discount?");
+var tax= prompt ("How much will the tax be?");
+var discountAmount= discount*originalPrice/100;
+var afterDiscountNoTax= originalPrice-discountAmount;
+var totalTax= tax*afterDiscountNoTax/100;
+var totalWithTax=afterDiscountNoTax+totalTax;
+
+alert("Your " + item + " was originally $" + originalPrice + ", but after a " + discount + "% discount, it is now $" +
+    afterDiscountNoTax + " without tax, and $" + totalWithTax + " with tax.");
+console.log(afterDiscountNoTax);
+console.log(totalWithTax);
