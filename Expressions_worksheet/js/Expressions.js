@@ -72,16 +72,19 @@ Calculate the discounted price for an item. Create an expression that will calcu
 and without sales tax.
  */
 
-var item= prompt("What are you buying?");
-var originalPrice= prompt("What was the original price of the item?");
-var discount= prompt ("What's the discount?");
-var tax= prompt ("How much will the tax be?");
-var discountAmount= discount*originalPrice/100;
-var afterDiscountNoTax= originalPrice-discountAmount;
-var totalTax= tax*afterDiscountNoTax/100;
-var totalWithTax=afterDiscountNoTax+totalTax;
+var item= prompt("What are you buying?"); //Name of the item bought.
+var originalPrice= prompt("What was the original price of the item?"); //Original cost of the item.
+var discount= prompt ("What's the discount?"); //Discount given.
+var tax= prompt ("How much will the tax be?"); //Tax charged.
+var discountAmount= discount*originalPrice/100; //How much money will be discounted.
+var afterDiscountNoTax= originalPrice-discountAmount; //New price, discount applied, without tax.
+var totalTax= tax*afterDiscountNoTax/100; //Total tax that will be charged.
+var totalWithTax=afterDiscountNoTax+totalTax; //New price, discount applied, with tax included.
 
 alert("Your " + item + " was originally $" + originalPrice + ", but after a " + discount + "% discount, it is now $" +
-    afterDiscountNoTax + " without tax, and $" + totalWithTax + " with tax.");
-console.log(afterDiscountNoTax);
-console.log(totalWithTax);
+    afterDiscountNoTax + " without tax, and $" + totalWithTax + " with tax."); //Output for the user to understand what
+                                                                                // the new prices will be.
+console.log(afterDiscountNoTax); //Logging of the new price without tax.
+console.log(totalWithTax); //Logging of the new price with tax.
+
+
