@@ -54,13 +54,14 @@ five weeks. Store the past five grocery totals as a list in an array. Create an 
 the array to calculate the average amount spent on groceries.
 */
 
-var groceriesMoney= [prompt("How much did you spend in week 1?"), prompt("How much did you spend in week 2?"),
-prompt("How much did you spend in week 3?"), prompt("How much did you spend in week 4?"),
-prompt("How much did you spend in week 5?")];
-var totalMoney= Number(groceriesMoney[0])+Number(groceriesMoney[1])+Number(groceriesMoney[2])+Number(groceriesMoney[3])+Number(groceriesMoney[4]);
-var averageMoney= totalMoney/5;
+var groceriesMoney= [prompt("How much did you spend on week 1?"), prompt("How much did you spend on week 2?"), //Asking for user input.
+    prompt("How much did you spend on week 3?"), prompt("How much did you spend on week 4?"), //Asking for user input.
+    prompt("How much did you spend on week 5?")]; //Asking for user input of money spent each week on groceries.
+var totalMoney= Number(groceriesMoney[0])+Number(groceriesMoney[1])+Number(groceriesMoney[2])+ //Addition of money spent each week.
+    Number(groceriesMoney[3])+ Number(groceriesMoney[4]); // Total money spent on groceries in 5 weeks.
+var averageMoney= totalMoney/5; //Dividing the total money spent by the amount of weeks to get the average.
 
 alert("You have spent a total of $" + totalMoney + " on groceries over 5 weeks. That is an average of $" + averageMoney +
-" per week");
-console.log(totalMoney);
-console.log(averageMoney);
+" per week"); //Letting the user know how much money he/she spent and what's the average.
+console.log(totalMoney); //Logging of all the money spent.
+console.log(averageMoney); //Logging of the average spent each week. 
