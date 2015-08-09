@@ -3,7 +3,7 @@
  */
 
 
-/*var muppetNames= ["Kermit", "Miss Piggy", "Gonzo", "Rizzo"]; //0,1,2,3
+var muppetNames= ["Kermit", "Miss Piggy", "Gonzo", "Rizzo"]; //0,1,2,3
 
 muppetNames[4]="Beto";
 muppetNames[1]="Elmo";
@@ -92,7 +92,7 @@ b--; // b=b-1 b-= 1
 
 console.log(a);
 console.log(b);
-*/
+
 
 //Prompt and Alert
 

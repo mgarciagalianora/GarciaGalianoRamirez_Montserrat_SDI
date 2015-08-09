@@ -10,6 +10,7 @@ Dogs age 7 times faster than humans, so a dog that is 1 year old in human years 
 Calculate how old Sparky the pit bull is in dog years based on his actual age.
  */
 
+
 var sparkysAge= prompt("How old is Sparky?");  //This will allow the user to insert Sparky's age in human years.
 var humanAge= 7; // This is a constant, meaning for every human year, Sparky grows 7 years.
 var dogYears= sparkysAge*humanAge; //The expression multiplying Sparky's age by the human years constant.
@@ -44,3 +45,22 @@ we calculate how much Sparky got for dinner. */
 
 console.log(sparkysDinner); //Register how much Sparky ate.
 alert ("Sparky got " + sparkysDinner + " slices of pizza"); //Alert to show how much Sparky ate.
+
+
+
+/*Average Shopping Bill
+You are budgeting your money for the year and must calculate your average weekly grocery shopping spending over the past
+five weeks. Store the past five grocery totals as a list in an array. Create an expression that will use the items in
+the array to calculate the average amount spent on groceries.
+*/
+
+var groceriesMoney= [prompt("How much did you spend in week 1?"), prompt("How much did you spend in week 2?"),
+prompt("How much did you spend in week 3?"), prompt("How much did you spend in week 4?"),
+prompt("How much did you spend in week 5?")];
+var totalMoney= Number(groceriesMoney[0])+Number(groceriesMoney[1])+Number(groceriesMoney[2])+Number(groceriesMoney[3])+Number(groceriesMoney[4]);
+var averageMoney= totalMoney/5;
+
+alert("You have spent a total of $" + totalMoney + " on groceries over 5 weeks. That is an average of $" + averageMoney +
+" per week");
+console.log(totalMoney);
+console.log(averageMoney);
