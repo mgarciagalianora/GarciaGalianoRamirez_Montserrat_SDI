@@ -43,4 +43,4 @@ var sparkysDinner= totalSlices%partygoers; /*Using the variables from last probl
 we calculate how much Sparky got for dinner. */
 
 console.log(sparkysDinner); //Register how much Sparky ate.
-alert ("Sparky got " + sparkysDinner + " slices of pizza"); //Alert to show how much Sparky ate. 
+alert ("Sparky got " + sparkysDinner + " slices of pizza"); //Alert to show how much Sparky ate.
