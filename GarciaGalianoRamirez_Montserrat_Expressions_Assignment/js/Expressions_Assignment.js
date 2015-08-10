@@ -39,5 +39,5 @@ pricePersonTwo += individualTipTwo;
 
 alert("In case you want to get separate checks " + names[0] + " will have to pay $" + pricePersonOne +
     " and " + names[1] + " $" + pricePersonTwo);
-console.log("In case you want to get separate checks " + names[0] + "will have to pay $" + pricePersonOne +
-"and " + names[1] + "$" + pricePersonTwo);
+console.log("In case you want to get separate checks " + names[0] + " will have to pay $" + pricePersonOne +
+" and " + names[1] + " $" + pricePersonTwo);
