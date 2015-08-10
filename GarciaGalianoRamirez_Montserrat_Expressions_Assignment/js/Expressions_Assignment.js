@@ -20,7 +20,11 @@ var check= Number(prices[0])+ Number(prices[1])+ Number(prices[2])+ Number(price
 var tip=prompt("How much do you want to tip?");
 var tipAmount= tip*check/100;
 var total= Number(check)+Number(tipAmount);
-var pricePerPerson= total/2;
 
-console.log("The total amount to pay, without tax is $" + check + ", with tip, it will be $" + total + " and if you " +
-    "decide to split the check, it will be $" + pricePerPerson + " each");
+alert("The total amount to pay, without tip is $" + check + ", with tip, it will be $" + total);
+console.log("The total amount to pay, without tip is $" + check + ", with tip, it will be $" + total);
+
+total/= 2;
+
+alert("If you decide to split the check, it will be $" + total + " each");
+console.log("If you decide to split the check, it will be $" + total + " each");
