@@ -6,5 +6,8 @@
  */
 
 //if(){}
-var temp=65;
-if(temp>70){alert("Go to the beach!");}else{alert("Go to the movies!");}
+var temp=40;
+var warmWater=true
+
+if(temp>70){alert("Go to the beach!"); if(warmWater){alert("Wear new swimsuit!")}}
+    else{alert("Go to the movies!");}

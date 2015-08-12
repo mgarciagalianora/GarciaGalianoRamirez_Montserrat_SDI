@@ -2,10 +2,7 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="a868462e-d5a1-4e88-bddb-c728a72e45fd" name="Default" comment="">
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Conditionals/css/Conditionals.css" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Conditionals/Conditionals.html" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Conditionals/js/Conditionals.js" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Conditionals/js/Conditionals.js" afterPath="$PROJECT_DIR$/Conditionals/js/Conditionals.js" />
     </list>
     <ignored path="GarciaGalianoRamirez_Montserrat_SDI.iws" />
     <ignored path=".idea/workspace.xml" />
@@ -39,8 +36,8 @@
       <file leaf-file-name="Conditionals.js" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/Conditionals/js/Conditionals.js">
           <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="0.5672269">
-              <caret line="9" column="71" selection-start-line="9" selection-start-column="71" selection-end-line="9" selection-end-column="71" />
+            <state vertical-scroll-proportion="0.48087433">
+              <caret line="9" column="18" selection-start-line="9" selection-start-column="18" selection-end-line="9" selection-end-column="18" />
               <folding />
             </state>
           </provider>
@@ -548,8 +545,8 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/Conditionals/js/Conditionals.js">
       <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.5672269">
-          <caret line="9" column="71" selection-start-line="9" selection-start-column="71" selection-end-line="9" selection-end-column="71" />
+        <state vertical-scroll-proportion="0.48087433">
+          <caret line="9" column="18" selection-start-line="9" selection-start-column="18" selection-end-line="9" selection-end-column="18" />
           <folding />
         </state>
       </provider>
