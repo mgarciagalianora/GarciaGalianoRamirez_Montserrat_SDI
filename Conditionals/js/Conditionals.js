@@ -6,8 +6,9 @@
  */
 
 //if(){}
-var temp=40;
+var temp= Number(prompt("What's the temperature outside?"));
 var warmWater=true
 
 if(temp>70){alert("Go to the beach!"); if(warmWater){alert("Wear new swimsuit!")}}
-    else{alert("Go to the movies!");}
+    else{alert("Go to the movies!");};
+
