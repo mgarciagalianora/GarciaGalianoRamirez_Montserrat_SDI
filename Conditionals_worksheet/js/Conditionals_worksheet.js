@@ -17,7 +17,8 @@ var milesToGo=200; //Miles to next gas station
 var gasRemaining= gaugeReading*gasTankCapacity/100; //Remaining gas in gallons
 var gasNeeded= milesToGo/gasEfficiency; //How much gas they need to get to the next station
 
-(gasRemaining>gasNeeded)?console.log("Yes, you can make it without stopping for gas!"):
+(gasRemaining>=gasNeeded)?console.log("Yes, you can make it without stopping for gas!"):       //If the remaining gas is more than the gas needed,
+    // you can make it without stopping
     console.log("You only have "+gasRemaining+ " gallons of gas in your tank, and you need \n "+gasNeeded+ //If it's less, you should stop for gas.
     " gallons. Better get gas now while you can!");
 
@@ -27,17 +28,35 @@ Make sure the user has the correct username and password. If the username doesn'
 to the console. If the password doesn't match, a message should appear for that, etc. Only one error message should appear.
  */
 
+
 //Variables
 
-var username= prompt("What's the username?");
-var password= prompt("What's the password?");
-var correctUsername= "SDI";
-var correctPassword= "1508";
+var username= prompt("What's the username?"); //User input for "username"
+var password= prompt("What's the password?"); //User input for "password"
+var correctUsername= "SDI"; //The correct username
+var correctPassword= "1508"; //The correct password
 
-if(username===correctUsername && password===correctPassword){console.log("Welcome, "+correctUsername+"!");}
-    else if (username!=correctUsername){console.log("User not found. Try again.");}
-    else{console.log("Password does not match our records.");}
+if(username===correctUsername && password===correctPassword){console.log("Welcome, "+correctUsername+"!");} //If the username and password are the
+    //same as the correct username and password, the user can log in.
+    else if (username!=correctUsername){console.log("User not found. Try again.");} //If the username doesn't match, the user should try again.
+    else{console.log("Password does not match our records.");} // If the password doesn't match, the user can't access.
 
 
+/* Tire Pressure I
+To meet to maintenance standards a car's front two tires should have the same pressure and the back two tires should have the same pressure. But
+the front tires and the rear tires can have different pressure than each other, so it is not necessary for all four tires' pressure to be the
+same. Create a single conditional that would determine if the tires of a given car are up to spec.
+ */
 
+
+//Variables
+var tirePressure= [prompt("What's the front left tire's pressure in psi?"), prompt("What's the front right " +  //Pressure of the front and rear tires.
+    "tire's pressure in psi?"), prompt("What's the rear left tire's pressure in psi?"), prompt("What's the rear right " + // Pressure of the front
+        //and rear tires.
+    "tire's pressure in psi?")]; //Pressure of the front and rear tires.
+
+
+(tirePressure[0]===tirePressure[1] && tirePressure[2]===tirePressure[3])?console.log("The tires pass spec!"): //If the front tires' pressure is the same
+    //between them, and the rear tires' as well, the car will have passed the test.
+    console.log("Get your tires checked out!"); //If they aren't the same, they need to be checked out.
 
