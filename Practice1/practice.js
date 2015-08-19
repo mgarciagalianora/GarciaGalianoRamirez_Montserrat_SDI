@@ -4,7 +4,8 @@ Montserrat Garcia Galiano Ramirez
  SDI 1508
  */
 
-alert("JavaScript Works!")
+alert("JavaScript Works!");
 console.log("Hello world!");
 
-
+var a= Math.cos(3);
+console.log(a);
