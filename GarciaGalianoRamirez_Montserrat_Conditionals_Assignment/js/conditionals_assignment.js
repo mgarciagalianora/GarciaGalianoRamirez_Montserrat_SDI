@@ -14,16 +14,27 @@ headwind=wind speed * cos(Ω)
  */
 
 //Variables
-var headingFlying= prompt("What heading are you flying? (000˚-359˚)");
-var windDirection= prompt("Where's the wind coming from? (000˚-359˚)");
-var windSpeed= Number(prompt("What's the wind speed in knots?"));
-var Ω= windDirection-headingFlying;
-var crosswind= windSpeed*Math.sin(Ω);
-var headwind= Math.round(windSpeed*Math.cos(Ω));
-var calmWind=confirm("Is the wind calm? (Ok for Yes, Cancel for No)");
+var calmWind;
+var headingFlying;
+var windDirection;
+var windSpeed;
+var angle;
+var crosswind;
+var headwind;
+
+calmWind=confirm("Is the wind calm? (Ok for Yes, Cancel for No)");
 
 if (calmWind===true){console.log("Enjoy the ride!");}
-else {console.log("Hold on!")}
+else {headingFlying= prompt("What heading are you flying? (000˚-359˚)");
+    windDirection= prompt("Where's the wind coming from? (000˚-359˚)");
+    windSpeed= Number(prompt("What's the wind speed in knots?"));
+    if (headingFlying===""||windDirection===""){headingFlying=prompt("We need both, your heading and wind direction.\n" +
+        "PLEASE enter your heading (000˚-359˚)"), windDirection=prompt("PLEASE enter the wind direction(000˚-359˚)");}
+    else if (windSpeed===0){windSpeed=Number(prompt("PLEASE enter the wind speed in knots");}
+
+}
+
+
 
 /*if (headingFlying=" "){headingFlying=prompt("We can't do the calculations without your heading. \n What heading are you" +
     " flying)(000˚-359˚)");}
@@ -33,6 +44,15 @@ else {console.log("Hold on!")}
 
 console.log(crosswind);
 console.log(headwind);
+
+ var calmWind=confirm("Is the wind calm? (Ok for Yes, Cancel for No)");
+ var headingFlying= prompt("What heading are you flying? (000˚-359˚)");
+ var windDirection= prompt("Where's the wind coming from? (000˚-359˚)");
+ var windSpeed= Number(prompt("What's the wind speed in knots?"));
+
+ var windSpeed= Number(prompt("What's the wind speed in knots?"));
+ var angle=windDirection-headingFlying;
+ var crosswind= windSpeed*Math.sin(angle);
  */
 
 //if(a<-1){a*=-1, console.log(a);}else{console.log(a);}
