@@ -21,16 +21,51 @@ var windSpeed;
 var angle;
 var crosswind;
 var headwind;
+var flyingToday;
+
+flyingToday=confirm("Are you flying today? (Ok for Yes, Cancel for No");
+(flyingToday===false)?console.log("Have a great day then!"):console.log("Let's continue then!");
 
 calmWind=confirm("Is the wind calm? (Ok for Yes, Cancel for No)");
 
 if (calmWind===true){console.log("Enjoy the ride!");}
+
 else {headingFlying= prompt("What heading are you flying? (000˚-359˚)");
     windDirection= prompt("Where's the wind coming from? (000˚-359˚)");
     windSpeed= Number(prompt("What's the wind speed in knots?"));
-    if (headingFlying===""||windDirection===""){headingFlying=prompt("We need both, your heading and wind direction.\n" +
-        "PLEASE enter your heading (000˚-359˚)"), windDirection=prompt("PLEASE enter the wind direction(000˚-359˚)");}
-    else if (windSpeed===0){windSpeed=Number(prompt("PLEASE enter the wind speed in knots");}
+
+    if (headingFlying==="" || windDirection==="" || windSpeed===0) {headingFlying=prompt("We need your heading, wind direction and wind speed.\n" +
+        "PLEASE enter your heading (000˚-359˚)");
+        windDirection=prompt("PLEASE enter the wind direction(000˚-359˚)");
+        windSpeed=Number(prompt("PLEASE enter the wind speed in knots"));
+
+        angle=Number(windDirection)-Number(headingFlying);
+        crosswind=Math.round(windSpeed*Math.sin(angle));
+        headwind=Math.round(windSpeed*Math.cos(angle));
+        if (crosswind<-1&&headwind<-1){
+            crosswind*=-1;
+            headwind*=-1;
+            console.log("You will be facing "+crosswind+" kts of crosswind and "+headwind+" kts of headwind. Safe flight!");}
+
+        else if (headwind<-1){headwind*=-1;
+            console.log("You will be facing "+crosswind+" kts of crosswind and "+headwind+" kts of headwind. Safe flight!");}
+
+        else if (crosswind<-1){crosswind*=-1;
+            console.log("You will be facing "+crosswind+" kts of crosswind and "+headwind+" kts of headwind. Safe flight!")}
+
+        else {console.log("You will be facing "+crosswind+" kts of crosswind and "+headwind+" kts of headwind. Safe flight!");}
+
+
+
+    }
+
+    else{angle=Number(windDirection)-Number(headingFlying);
+        crosswind=Math.round(windSpeed*Math.sin(angle));
+        headwind=Math.round(windSpeed*Math.cos(angle));
+
+
+        console.log(crosswind);
+        console.log(headwind);}
 
 }
 
@@ -53,6 +88,24 @@ console.log(headwind);
  var windSpeed= Number(prompt("What's the wind speed in knots?"));
  var angle=windDirection-headingFlying;
  var crosswind= windSpeed*Math.sin(angle);
+
+ if (headingFlying==="" && windDirection==="" && windSpeed===0){headingFlying=prompt("We need your heading, wind direction and wind speed.\n" +
+ "PLEASE enter your heading (000˚-359˚)");
+ windDirection=prompt("PLEASE enter the wind direction(000˚-359˚)");
+ windSpeed=Number(prompt("PLEASE enter the wind speed in knots"));}
+
+ else if (headingFlying==="" || windDirection==="" && windSpeed===0){headingFlying=prompt("We need your both, your heading and wind direction.\n" +
+ "PLEASE enter your heading (000˚-359˚)");
+ windDirection=prompt("PLEASE enter the wind direction(000˚-359˚)");
+ windSpeed=Number(prompt("PLEASE enter the wind speed in knots"));}
+
+ else{angle=Number(windDirection)-Number(headingFlying);
+ crosswind=Math.round(windSpeed*Math.sin(angle));
+ headwind=Math.round(windSpeed*Math.cos(angle));
+
+ console.log(crosswind);
+ console.log(headwind);}
+
  */
 
 //if(a<-1){a*=-1, console.log(a);}else{console.log(a);}
