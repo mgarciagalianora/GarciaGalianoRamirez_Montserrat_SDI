@@ -14,14 +14,14 @@ headwind=wind speed * cos(Ω)
  */
 
 //Variables
-var calmWind; 
-var headingFlying;
-var windDirection;
-var windSpeed;
-var angle;
-var crosswind;
-var headwind;
-var flyingToday;
+var calmWind; //If there's no wind, there's no calculation
+var headingFlying; //Heading being flown, or that will be flown
+var windDirection; //Where the wind is coming from
+var windSpeed; //How fast the wind is blowing
+var angle; //Difference between where the wind's coming and the heading you're flying
+var crosswind; //The strength of the wind "hitting" you from the side
+var headwind; //Strength of wind coming towards you
+var flyingToday; //If you are not flying, no need to calculate
 
 flyingToday=confirm("Are you flying today? (Ok for Yes, Cancel for No)");
 (flyingToday===false)?alert("Click Ok in the next window to exit. Have a great day!"):
