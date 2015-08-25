@@ -33,7 +33,7 @@ function calcArea(){
 
 calcArea();
 outputMsg();
-*/
+
 
 //Variable Scope
 
@@ -48,3 +48,23 @@ function calcArea(){
 
 calcArea();
 console.log(width);
+*/
+
+//Arguments and Parameters
+    //funcName(argument1,argument2);
+    //function funcName(parameter1,parameter2);
+calcArea(30,20);
+function calcArea(width,height){ //width=30, height=20
+    var area=width*height;
+    console.log (area);
+}
+
+function dogYears(age){ //parameters
+    var dogYears= age*7;
+    console.log("Sparky is "+dogYears+" years old.");
+}
+var age1=4;
+dogYears(age1);//arguments
+dogYears(5);
+dogYears(prompt("How old is Sparky?"));
+
