@@ -48,7 +48,7 @@ function calcArea(){
 
 calcArea();
 console.log(width);
-*/
+
 
 //Arguments and Parameters
     //funcName(argument1,argument2);
@@ -67,4 +67,13 @@ var age1=4;
 dogYears(age1);//arguments
 dogYears(5);
 dogYears(prompt("How old is Sparky?"));
+ */
 
+//Returning Values
+
+var total= calcArea(30,20);
+function calcArea(width,height){
+    var area=width*height;
+    return area;
+}
+console.log (total);
