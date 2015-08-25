@@ -21,6 +21,7 @@ Basic structure
  */
 
 //Functions- Basic Structure/Function Execution
+/*
 function outputMsg(){console.log("Hello World!")}
 
 function calcArea(){
@@ -32,5 +33,18 @@ function calcArea(){
 
 calcArea();
 outputMsg();
+*/
 
+//Variable Scope
 
+var width=5; //When not using the function, this value is preferred
+
+function calcArea(){
+    var width=20; //When talking about the function, this value is preferred
+    var height=30;
+    var area=width*height;
+    console.log (area);
+}
+
+calcArea();
+console.log(width);
