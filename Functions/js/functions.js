@@ -20,7 +20,7 @@ Basic structure
     function functionName (){}
  */
 
-//Functions- Basic Structure
+//Functions- Basic Structure/Function Execution
 function outputMsg(){console.log("Hello World!")}
 
 function calcArea(){
@@ -29,3 +29,8 @@ function calcArea(){
     var area=width*height;
     console.log (area);
 }
+
+calcArea();
+outputMsg();
+
+
