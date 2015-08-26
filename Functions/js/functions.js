@@ -21,7 +21,7 @@ Basic structure
  */
 
 //Functions- Basic Structure/Function Execution
-/*
+
 function outputMsg(){console.log("Hello World!")}
 
 function calcArea(){
@@ -77,7 +77,7 @@ function calcArea(width,height){  //This is a function (returns values)
     return area;
 }
 console.log (total);
- */
+
 
 //Anonymous Functions a.k.a. closures
 //var functionName=function()
