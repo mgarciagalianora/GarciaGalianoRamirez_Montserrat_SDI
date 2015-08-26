@@ -78,3 +78,14 @@ function calcArea(width,height){  //This is a function (returns values)
 }
 console.log (total);
  */
+
+//Anonymous Functions a.k.a. closures
+//var functionName=function()
+
+
+var calcArea=function(width,height);{
+    var area= width*height;
+    return area;
+}
+var a=calcArea(20,30);
+console.log(a);
