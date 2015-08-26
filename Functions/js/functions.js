@@ -59,7 +59,7 @@ function calcArea(width,height){ //width=30, height=20
     console.log (area);
 }
 
-function dogYears(age){ //parameters
+function dogYears(age){ //parameters        This is a procedure (doesn't return values)
     var dogYears= age*7;
     console.log("Sparky is "+dogYears+" years old.");
 }
@@ -67,13 +67,14 @@ var age1=4;
 dogYears(age1);//arguments
 dogYears(5);
 dogYears(prompt("How old is Sparky?"));
- */
+
 
 //Returning Values
 
 var total= calcArea(30,20);
-function calcArea(width,height){
+function calcArea(width,height){  //This is a function (returns values)
     var area=width*height;
     return area;
 }
 console.log (total);
+ */
