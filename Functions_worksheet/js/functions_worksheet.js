@@ -42,4 +42,4 @@ function stingsToKill(weight,beeStings){ //Body of the function
     return stingsPerPound; //Returned value of the function
 
 }
-console.log("You need "+totalStingsNeeded+" stings to kill a "+weight+" pound animal"); //Output for the user
+console.log("You need "+totalStingsNeeded+" bee stings to kill a "+weight+" pound animal"); //Output for the user
