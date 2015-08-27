@@ -27,7 +27,7 @@ function calcCircumference(radius,π){ //Body of the function
     var circumference=2*radius*π; //Body of the function
     return circumference; //The value which will be returned by the function
 }
-console.log("The circumference of the circle is "+totalCircumference+ "ft"); //Output for the user to know the circumference of the circle
+console.log("The circumference of the circle is "+totalCircumference+" ft"); //Output for the user to know the circumference of the circle
 
 
 
@@ -35,4 +35,11 @@ console.log("The circumference of the circle is "+totalCircumference+ "ft"); //O
 
 var weight=Number(prompt("What's the victim's weight in pounds?"));
 var beeStings= 8.666666667;
-var totalStingsNeeded= stingsNeeded (weight,beeStings);
+var totalStingsNeeded= stingsToKill(weight,beeStings);
+
+function stingsToKill(weight,beeStings){
+    var stingsPerPound= weight*beeStings;
+    return stingsPerPound;
+
+}
+console.log("You need "+totalStingsNeeded+" stings to kill a "+weight+" pound animal");
