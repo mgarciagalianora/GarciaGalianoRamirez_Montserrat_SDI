@@ -18,7 +18,7 @@ var a=calcArea(20,30);
 console.log(a);
 */
 
-// Circumference of the circle. C=2πr
+// Circumference. Calculate the circumference of the circle. C=2πr
 
 var radius= Number(prompt("What's the circle's radius in feet?")); //User input for the circle's radius
 var π= 3.14159; //Value of the variable π
@@ -29,3 +29,6 @@ function calcCircumference(radius,π){ //Body of the function
 }
 console.log("The circumference of the circle is "+totalCircumference+ "ft"); //Output for the user to know the circumference of the circle
 
+
+
+//Stung! It takes 8.666666667 bee stings per pund to kill an animal. Calculate how many bee stings are needed to kill an animal in a function.
