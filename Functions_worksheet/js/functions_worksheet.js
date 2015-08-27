@@ -33,9 +33,13 @@ console.log("The circumference of the circle is "+totalCircumference+" ft"); //O
 
 //Stung! It takes 8.666666667 bee stings per pound to kill an animal. Calculate how many bee stings are needed to kill an animal in a function.
 
-function stingsToKill(weight,beeStings){
-    var stingsPerPound= weight*beeStings;
-    return stingsPerPound;
+var weight=Number(prompt("What's the victim's weight in pounds?")); //User input of the animal's weight
+var beeStings= 8.666666667; //Constant of the bee stings per pound needed to kill the victim
+var totalStingsNeeded= stingsToKill(weight,beeStings); //Invoking the function
+
+function stingsToKill(weight,beeStings){ //Body of the function
+    var stingsPerPound= weight*beeStings; //Body of the function
+    return stingsPerPound; //Returned value of the function
 
 }
-console.log("You need "+totalStingsNeeded+" stings to kill a "+weight+" pound animal");
+console.log("You need "+totalStingsNeeded+" stings to kill a "+weight+" pound animal"); //Output for the user
