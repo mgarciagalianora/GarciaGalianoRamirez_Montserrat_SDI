@@ -115,7 +115,7 @@ for(var i=10;1>0;1--){
     console.log(i);
 
 }
-*/
+
 
 //Math
 var b=5;
@@ -125,3 +125,54 @@ while(b>0){
     b--;
 }
 
+ */
+
+//variables
+//var myName=prompt("Please enter your first name: ");
+var myRandom;
+
+//my functions
+//function to validate name entry
+function nameValidation(firstName){
+    var timesClicked=1;
+    while(firstName===""){
+        firstName=prompt("Please don't leave this blank \n\nPlease enter your name:");
+        timesClicked++;
+        if (timesClicked===3){
+            console.log("Enough!!!");
+            break;
+        }
+    }
+    return firstName;
+}
+
+//function to generate random numbers
+function randomNumGen(max,min,num){
+    var randomNum= [];
+    //Math.random()*(max-min)+min
+
+    for (var i=0;i<num;i++){
+
+        randomNum[i]=Math.random()*(max-min)+min;
+        randomNum[i]=Math.round(randomNum[i]);
+        for (var ii=0;ii<num;ii++){
+            if (randomNum[i]===randomNum[i]){
+            randomNum[i]=Math.random()*(max-min)+min;
+            randomNum[i]=Math.round(randomNum[i]);
+            }
+        }
+
+    }
+    return randomNum;
+
+}
+
+//main code that call my functions
+//TODO: create my function calls
+//myName= nameValidation(myName);
+//console.log("Thank you, "+firstName+".");
+
+myRandom=randomNumGen(100,0,4);
+console.log("The first random numbers are "+ myRandom);
+myRandom=randomNumGen(50,0,3);
+console.log("The second random numbers are "+ myRandom);
