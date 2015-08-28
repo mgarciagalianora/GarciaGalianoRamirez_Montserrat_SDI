@@ -2,7 +2,7 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="a868462e-d5a1-4e88-bddb-c728a72e45fd" name="Default" comment="">
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Functions_worksheet/js/functions_worksheet.js" afterPath="$PROJECT_DIR$/Functions_worksheet/js/functions_worksheet.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Functions/js/functions.js" afterPath="$PROJECT_DIR$/Functions/js/functions.js" />
     </list>
     <ignored path="GarciaGalianoRamirez_Montserrat_SDI.iws" />
     <ignored path=".idea/workspace.xml" />
@@ -26,8 +26,8 @@
       <file leaf-file-name="functions.html" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/Functions/functions.html">
           <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="-1.0833334">
-              <caret line="5" column="43" selection-start-line="5" selection-start-column="3" selection-end-line="5" selection-end-column="43" />
+            <state vertical-scroll-proportion="-3.875">
+              <caret line="9" column="7" selection-start-line="9" selection-start-column="7" selection-end-line="9" selection-end-column="7" />
               <folding />
             </state>
           </provider>
@@ -43,11 +43,11 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="functions.js" pinned="false" current-in-tab="false">
+      <file leaf-file-name="functions.js" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/Functions/js/functions.js">
           <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="0.0">
-              <caret line="66" column="13" selection-start-line="66" selection-start-column="13" selection-end-line="66" selection-end-column="13" />
+            <state vertical-scroll-proportion="0.7972973">
+              <caret line="102" column="0" selection-start-line="102" selection-start-column="0" selection-end-line="102" selection-end-column="0" />
               <folding>
                 <element signature="n#!!doc" expanded="true" />
               </folding>
@@ -55,10 +55,10 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="functions_worksheet.js" pinned="false" current-in-tab="true">
+      <file leaf-file-name="functions_worksheet.js" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/Functions_worksheet/js/functions_worksheet.js">
           <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="0.527027">
+            <state vertical-scroll-proportion="0.0">
               <caret line="43" column="1" selection-start-line="43" selection-start-column="1" selection-end-line="43" selection-end-column="1" />
               <folding>
                 <element signature="n#!!doc" expanded="true" />
@@ -115,8 +115,8 @@
         <option value="$PROJECT_DIR$/Functions/functions.html" />
         <option value="$PROJECT_DIR$/Functions_worksheet/functions_worksheet.html" />
         <option value="$PROJECT_DIR$/Functions_worksheet/css/functions_worksheet.css" />
-        <option value="$PROJECT_DIR$/Functions/js/functions.js" />
         <option value="$PROJECT_DIR$/Functions_worksheet/js/functions_worksheet.js" />
+        <option value="$PROJECT_DIR$/Functions/js/functions.js" />
       </list>
     </option>
   </component>
@@ -665,14 +665,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/Functions/functions.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="-1.0833334">
-          <caret line="5" column="43" selection-start-line="5" selection-start-column="3" selection-end-line="5" selection-end-column="43" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/Functions_worksheet/css/functions_worksheet.css">
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.0">
@@ -689,20 +681,28 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/Functions/js/functions.js">
+    <entry file="file://$PROJECT_DIR$/Functions/functions.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="-3.875">
+          <caret line="9" column="7" selection-start-line="9" selection-start-column="7" selection-end-line="9" selection-end-column="7" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Functions_worksheet/js/functions_worksheet.js">
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.0">
-          <caret line="66" column="13" selection-start-line="66" selection-start-column="13" selection-end-line="66" selection-end-column="13" />
+          <caret line="43" column="1" selection-start-line="43" selection-start-column="1" selection-end-line="43" selection-end-column="1" />
           <folding>
             <element signature="n#!!doc" expanded="true" />
           </folding>
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/Functions_worksheet/js/functions_worksheet.js">
+    <entry file="file://$PROJECT_DIR$/Functions/js/functions.js">
       <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.527027">
-          <caret line="43" column="1" selection-start-line="43" selection-start-column="1" selection-end-line="43" selection-end-column="1" />
+        <state vertical-scroll-proportion="0.7972973">
+          <caret line="102" column="0" selection-start-line="102" selection-start-column="0" selection-end-line="102" selection-end-column="0" />
           <folding>
             <element signature="n#!!doc" expanded="true" />
           </folding>

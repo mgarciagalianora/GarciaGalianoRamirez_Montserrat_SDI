@@ -19,7 +19,7 @@ Types of functions
 Basic structure
     function functionName (){}
  */
-
+/*
 //Functions- Basic Structure/Function Execution
 
 function outputMsg(){console.log("Hello World!")}
@@ -89,3 +89,14 @@ var calcArea=function(width,height);{
 }
 var a=calcArea(20,30);
 console.log(a);
+*/
+
+//While Loops
+
+var b=10;
+while(b>0){
+    console.log(b);
+    b--;
+}
+
+//Do While Loops
