@@ -11,7 +11,7 @@
  */
 
 //my variables
-var whichNumbers=confirm("Do you want Florida's Lottery or Powerball's numbers? \n\n (Ok for Florida's Lottery, Cancel for Powerball");
+var whichNumbers=prompt("Do you want Florida's Lottery or Powerball's numbers? \n\n (Please write Florida Lottery, or Powerball");
 var lottery;
 var power;
 
@@ -52,5 +52,6 @@ function powerBall(max,min,num){
 //invoking functions
 lottery=floridaLottery(53,1,6);
 console.log("The Florida lottery numbers are: "+lottery);
-power=powerBall(59,1,5);
-console.log("The Powerball numbers are: "+power);
+powerNumbers=powerBall(59,1,5);
+ballNumber=powerBall(35,1,1);
+console.log("The Powerball lottery numbers are: "+powerNumbers+" and the Powerball is: "+ballNumber);
