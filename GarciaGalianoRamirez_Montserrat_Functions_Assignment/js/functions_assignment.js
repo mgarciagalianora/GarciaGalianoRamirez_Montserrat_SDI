@@ -5,27 +5,25 @@
  SDI 1500
  */
 
-/*Keep in mind that the regular Florida lottery has six random numbers between 1 and 53;
- the Powerball lottery has five random numbers between 1 and 59 and a Powerball
- between 1 and 35.
- */
+
 
 //my variables
-var whichNumbers=prompt("Do you want Florida's Lottery or Powerball's numbers? \n\n (Please write Florida Lottery, or Powerball");
-var lottery;
-var powerNumbers;
+var whichNumbers=prompt("Do you want Florida's Lottery or Powerball's numbers? \n\n (Please write Florida Lottery, or Powerball"); //user input
+    //declaring which numbers he/she wants
+var lottery; //Variable for Florida Lottery
+var powerNumbers; //Variable for Powerball
 
 
 //my functions
 
-function typeOfLotteryValidation(lotteryType){
-    var timesClicked=1;
-    while(lotteryType===""){
-        lotteryType=prompt("Please don't leave this blank \n\nType Florida Lottery or Powerball");
-        timesClicked++;
-        if (timesClicked===3){
-            console.log("Enough!!!");
-            break;
+function typeOfLotteryValidation(lotteryType){ //Function to validate the user's input
+    var timesClicked=1; //Assigning the amount of clicks until now
+    while(lotteryType===""){ //Validating the question was answered
+        lotteryType=prompt("Please don't leave this blank \n\nType Florida Lottery or Powerball"); //Output requesting an input
+        timesClicked++; //Adding the number of clicks until now
+        if (timesClicked===3){ //Assigning a maximum amount of clicks in order not to have an infinite loop
+            console.log("No more chances available"); //Output saying there are no more clicks available
+            break;//End of the function
         }
     }
     return lotteryType;
