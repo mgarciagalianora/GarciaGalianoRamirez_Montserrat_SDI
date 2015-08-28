@@ -107,3 +107,9 @@ do{
     c--;
 }
 while(c>10);
+
+//For Loop
+for(var i=10;1>0;1--){
+    console.log(i);
+
+}
