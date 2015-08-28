@@ -38,7 +38,10 @@ function floridaLottery(max,min,num){
         lotteryNumbers[i]=Math.floor(lotteryNumbers[i]);
         for (var ii=0;ii<num; ii++){
             if(lotteryNumbers[i]===lotteryNumbers[i]){
-                lotteryNumbers[i]=lotteryNumbers[i]-1;
+                lotteryNumbers[i]=lotteryNumbers[i]+1;
+                if (lotteryNumbers[i]>max){
+                    lotteryNumbers[i]=lotteryNumbers[i]-num;
+                }
             }
         }
     }
@@ -53,7 +56,10 @@ function powerBall(max,min,num){
         powerBallNumbers[j]=Math.floor(powerBallNumbers[j]);
         for (var jj=0;jj<num;jj++){
             if(powerBallNumbers[j]===powerBallNumbers[j]){
-                powerBallNumbers[j]=powerBallNumbers[j]-1;
+                powerBallNumbers[j]=powerBallNumbers[j]+1;
+                if (powerBallNumbers[j]>max){
+                    powerBallNumbers[j]=powerBallNumbers[j]-num
+                }
             }
         }
     }
