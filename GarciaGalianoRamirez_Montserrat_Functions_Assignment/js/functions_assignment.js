@@ -32,7 +32,20 @@ function floridaLottery(max,min,num){
     return lotteryNumbers;
 
 }
-function powerBall(){
+function powerBall(max,min,num){
+    var powerBallNumbers=[];
+    for (var j=0; j<num; j++){
+        powerBallNumbers[j]=Math.random()*(max-min)+min;
+        powerBallNumbers[j]=Math.floor(powerBallNumbers[i]);
+        for (var jj=0;jj<num;jj++){
+            if(powerBallNumbers[j]===powerBallNumbers[j]){
+                powerBallNumbers[j]=Math.random()*(max-min)+min;
+                powerBallNumbers[j]=Math.floor(lotteryNumbers[i]);
+            }
+        }
+    }
+    return powerBallNumbers;
+
 
 }
 
