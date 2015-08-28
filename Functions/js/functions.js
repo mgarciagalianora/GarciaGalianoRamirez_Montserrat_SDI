@@ -100,3 +100,10 @@ while(b>0){
 }
 
 //Do While Loops
+
+var c=10;
+do{
+    console.log(c);
+    c--;
+}
+while(c>10);
