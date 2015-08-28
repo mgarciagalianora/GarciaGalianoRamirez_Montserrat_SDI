@@ -89,15 +89,17 @@ var calcArea=function(width,height);{
 }
 var a=calcArea(20,30);
 console.log(a);
-*/
+
 
 //While Loops
-
-var b=10;
-while(b>0){
-    console.log(b);
-    b--;
+/*
+var h=10;
+while(h>0){
+    console.log(h);
+    h--;
 }
+*/
+/*
 
 //Do While Loops
 
@@ -113,3 +115,13 @@ for(var i=10;1>0;1--){
     console.log(i);
 
 }
+*/
+
+//Math
+var b=5;
+while(b>0){
+    var a=Math.floor(Math.random()*10)+1;
+    console.log(a);
+    b--;
+}
+
