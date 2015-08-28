@@ -13,10 +13,24 @@
 //my variables
 var whichNumbers=prompt("Do you want Florida's Lottery or Powerball's numbers? \n\n (Please write Florida Lottery, or Powerball");
 var lottery;
-var power;
+var powerNumbers;
 
 
 //my functions
+
+function typeOfLotteryValidation(lotteryType){
+    var timesClicked=1;
+    while(lotteryType===""){
+        lotteryType=prompt("Please don't leave this blank \n\nType Florida Lottery or Powerball");
+        timesClicked++;
+        if (timesClicked===3){
+            console.log("Enough!!!");
+            break;
+        }
+    }
+    return lotteryType;
+}
+
 function floridaLottery(max,min,num){
     var lotteryNumbers=[];
     for (var i=0; i<num; i++){
@@ -50,8 +64,13 @@ function powerBall(max,min,num){
 }
 
 //invoking functions
-lottery=floridaLottery(53,1,6);
-console.log("The Florida lottery numbers are: "+lottery);
-powerNumbers=powerBall(59,1,5);
-ballNumber=powerBall(35,1,1);
-console.log("The Powerball lottery numbers are: "+powerNumbers+" and the Powerball is: "+ballNumber);
+whichNumbers=typeOfLotteryValidation(whichNumbers);
+if (whichNumbers==="Florida Lottery"){
+    lottery=floridaLottery(53,1,6);
+    console.log("The Florida lottery numbers are: "+lottery);
+}else if(whichNumbers==="Powerball"){
+    powerNumbers=powerBall(59,1,5);
+    ballNumber=powerBall(35,1,1);
+    console.log("The Powerball lottery numbers are: "+powerNumbers+" and the Powerball is: "+ballNumber);
+}
+

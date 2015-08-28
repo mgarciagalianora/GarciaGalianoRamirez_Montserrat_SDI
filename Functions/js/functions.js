@@ -128,7 +128,7 @@ while(b>0){
  */
 
 //variables
-//var myName=prompt("Please enter your first name: ");
+var myName=prompt("Please enter your first name: ");
 var myRandom;
 
 //my functions
@@ -169,8 +169,8 @@ function randomNumGen(max,min,num){
 
 //main code that call my functions
 //TODO: create my function calls
-//myName= nameValidation(myName);
-//console.log("Thank you, "+firstName+".");
+myName= nameValidation(myName);
+console.log("Thank you, "+myName+".");
 
 myRandom=randomNumGen(100,0,4);
 console.log("The first random numbers are "+ myRandom);

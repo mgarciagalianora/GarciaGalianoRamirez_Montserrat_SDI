@@ -2,6 +2,7 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="a868462e-d5a1-4e88-bddb-c728a72e45fd" name="Default" comment="">
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Functions/js/functions.js" afterPath="$PROJECT_DIR$/Functions/js/functions.js" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/GarciaGalianoRamirez_Montserrat_Functions_Assignment/js/functions_assignment.js" afterPath="$PROJECT_DIR$/GarciaGalianoRamirez_Montserrat_Functions_Assignment/js/functions_assignment.js" />
     </list>
     <ignored path="GarciaGalianoRamirez_Montserrat_SDI.iws" />
@@ -25,8 +26,8 @@
             <file leaf-file-name="functions.js" pinned="false" current-in-tab="true">
               <entry file="file://$PROJECT_DIR$/Functions/js/functions.js">
                 <provider selected="true" editor-type-id="text-editor">
-                  <state vertical-scroll-proportion="0.72307694">
-                    <caret line="177" column="56" selection-start-line="177" selection-start-column="56" selection-end-line="177" selection-end-column="56" />
+                  <state vertical-scroll-proportion="0.4923077">
+                    <caret line="172" column="32" selection-start-line="172" selection-start-column="32" selection-end-line="172" selection-end-column="32" />
                     <folding>
                       <element signature="n#!!doc" expanded="true" />
                     </folding>
@@ -68,8 +69,8 @@
       <file leaf-file-name="functions_assignment.js" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/GarciaGalianoRamirez_Montserrat_Functions_Assignment/js/functions_assignment.js">
           <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="0.6797583">
-              <caret line="51" column="20" selection-start-line="51" selection-start-column="20" selection-end-line="51" selection-end-column="20" />
+            <state vertical-scroll-proportion="0.45619336">
+              <caret line="70" column="21" selection-start-line="70" selection-start-column="21" selection-end-line="70" selection-end-column="21" />
               <folding>
                 <element signature="n#!!doc" expanded="true" />
               </folding>
@@ -127,8 +128,8 @@
         <option value="$PROJECT_DIR$/Functions_worksheet/css/functions_worksheet.css" />
         <option value="$PROJECT_DIR$/Functions_worksheet/js/functions_worksheet.js" />
         <option value="$PROJECT_DIR$/GarciaGalianoRamirez_Montserrat_Functions_Assignment/css/functions_assignment.css" />
-        <option value="$PROJECT_DIR$/Functions/js/functions.js" />
         <option value="$PROJECT_DIR$/GarciaGalianoRamirez_Montserrat_Functions_Assignment/functions_assignment.html" />
+        <option value="$PROJECT_DIR$/Functions/js/functions.js" />
         <option value="$PROJECT_DIR$/GarciaGalianoRamirez_Montserrat_Functions_Assignment/js/functions_assignment.js" />
       </list>
     </option>
@@ -718,14 +719,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/Functions/functions.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="-5.0">
-          <caret line="8" column="0" selection-start-line="8" selection-start-column="0" selection-end-line="8" selection-end-column="47" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/GarciaGalianoRamirez_Montserrat_Functions_Assignment/functions_assignment.html">
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="-5.0">
@@ -734,10 +727,18 @@
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/Functions/functions.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="-5.0">
+          <caret line="8" column="0" selection-start-line="8" selection-start-column="0" selection-end-line="8" selection-end-column="47" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/Functions/js/functions.js">
       <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.72307694">
-          <caret line="177" column="56" selection-start-line="177" selection-start-column="56" selection-end-line="177" selection-end-column="56" />
+        <state vertical-scroll-proportion="0.4923077">
+          <caret line="172" column="32" selection-start-line="172" selection-start-column="32" selection-end-line="172" selection-end-column="32" />
           <folding>
             <element signature="n#!!doc" expanded="true" />
           </folding>
@@ -746,8 +747,8 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/GarciaGalianoRamirez_Montserrat_Functions_Assignment/js/functions_assignment.js">
       <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.6797583">
-          <caret line="51" column="20" selection-start-line="51" selection-start-column="20" selection-end-line="51" selection-end-column="20" />
+        <state vertical-scroll-proportion="0.45619336">
+          <caret line="70" column="21" selection-start-line="70" selection-start-column="21" selection-end-line="70" selection-end-column="21" />
           <folding>
             <element signature="n#!!doc" expanded="true" />
           </folding>
