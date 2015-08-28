@@ -38,8 +38,7 @@ function floridaLottery(max,min,num){
         lotteryNumbers[i]=Math.floor(lotteryNumbers[i]);
         for (var ii=0;ii<num; ii++){
             if(lotteryNumbers[i]===lotteryNumbers[i]){
-                lotteryNumbers[i]=Math.random()*(max-min)+min;
-                lotteryNumbers[i]=Math.floor(lotteryNumbers[i]);
+                lotteryNumbers[i]=lotteryNumbers[i]-1;
             }
         }
     }
@@ -54,11 +53,11 @@ function powerBall(max,min,num){
         powerBallNumbers[j]=Math.floor(powerBallNumbers[j]);
         for (var jj=0;jj<num;jj++){
             if(powerBallNumbers[j]===powerBallNumbers[j]){
-                powerBallNumbers[j]=Math.random()*(max-min)+min;
-                powerBallNumbers[j]=Math.floor(powerBallNumbers[j]);
+                powerBallNumbers[j]=powerBallNumbers[j]-1;
             }
         }
     }
+
     return powerBallNumbers;
 
 }
@@ -72,5 +71,4 @@ if (whichNumbers==="Florida Lottery"){
     powerNumbers=powerBall(59,1,5);
     ballNumber=powerBall(35,1,1);
     console.log("The Powerball lottery numbers are: "+powerNumbers+" and the Powerball is: "+ballNumber);
-}
-
+}else{console.log("Please try again.")}
