@@ -1,3 +1,5 @@
+
+/*
 /*
 Montserrat Garcia Galiano Ramirez
 Loops and Functions
@@ -125,7 +127,7 @@ while(b>0){
     b--;
 }
 
- */
+
 
 //variables
 var myName=prompt("Please enter your first name: ");
@@ -176,3 +178,36 @@ myRandom=randomNumGen(100,0,4);
 console.log("The first random numbers are "+ myRandom);
 myRandom=randomNumGen(50,0,3);
 console.log("The second random numbers are "+ myRandom);
+
+ */
+
+var firstArray=["Pedro","Luis","Maria","Sergio"];
+var counter= 0
+
+function next(){
+    counter++;
+    if (counter < 4){
+        counter++;
+    } else {
+        counter=0;
+    }
+    return counter;
+}
+
+function back (){
+    counter--;
+    if (counter > 0){
+        counter--;
+    }else{
+        counter=3;
+    }
+    return counter;
+}
+var keepGoing= prompt("Do you want to go next or back?");
+
+if (keepGoing==="next"){
+    next()} else if (keepGoing==="back"){back()}
+
+var text= firstArray[counter];
+console.log(text);
+
